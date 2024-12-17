@@ -1,0 +1,27 @@
+.food_container {
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.food_container h2{
+    width: 300px;
+    height: 300px;
+    text-wrap: initial;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    line-height: 250px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin-top: 0;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.food_container:hover h2{
+    display: block;
+}
