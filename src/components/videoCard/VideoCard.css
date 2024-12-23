@@ -1,0 +1,23 @@
+/* Food Info */
+.videoCard_container .info_container{
+    text-align: left;
+    margin-top: 15px;
+    height: 75px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+/* Food Way */
+.videoCard_container #source {
+    color: #E8412F;
+}
+
+/* Food Name */
+.videoCard_container #title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #2f2f2f;
+}
+.videoCard_container iframe{
+    pointer-events: none;
+}

@@ -1,0 +1,28 @@
+.header_container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 15px 0;
+    position: relative;
+}
+
+/* Logo */
+.header_container h2 {
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    z-index: 100;
+    transform: translate(-50%);
+    font-size: 2rem;
+    width: max-content;
+    height: max-content;
+    padding: 10px 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/* GNB */
+.header_container .gnb{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}

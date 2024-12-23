@@ -1,0 +1,36 @@
+.recipeTabMenu_container{
+    text-align: center;
+    margin-top: 50px;
+}
+/* Title */
+.recipeTabMenu_container .label_container h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #3f3f3f;
+}
+.recipeTabMenu_container .label_container p{
+    font-size: 1.25rem;
+    font-weight: 550;
+    color: #DE5A33;
+    margin-top: 15px;
+}
+
+/* menu btn container */
+.recipeTabMenu_container .menu_btn_container{
+    margin: 30px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.recipeTabMenu_container .menu_btn_container button {
+    cursor: pointer;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #f1f1f1;
+    font-weight: 600;
+}
+.recipeTabMenu_container .menu_btn_container .btn_active{
+    color: #DE5A33;
+    border-bottom: 3px solid #DE5A33;
+
+}

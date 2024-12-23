@@ -1,0 +1,85 @@
+.search_section {
+  width: 100vw;
+  min-width: 1280px;
+  height: 620px;
+  background-image: url(../../../public/images/main_img.png);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+/* Recipe Section */
+.recipe_section {
+  width: 1280px;
+  min-width: 1280px;
+  /* margin-left: calc((100vw - 1280px) / 2); */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Recipe Show More */
+.recipe_show_more {
+  text-align: center;
+  margin: 50px 0;
+  position: relative;
+}
+.recipe_show_more a {
+  padding: 10px 50px;
+  background-color: #fff;
+  color: #3f3f3f;
+  border: 2px solid #f1f1f1;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+.recipe_show_more .line {
+  width: 100vw;
+  height: 2px;
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  z-index: -2;
+  transform: translate(0, -50%);
+}
+
+/* Video Recipe Section */
+.video_container {
+  text-align: center;
+  margin-top: 50px;
+}
+/* Title */
+.video_container .label_container h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #3f3f3f;
+}
+.video_container .label_container p {
+  font-size: 1.25rem;
+  font-weight: 550;
+  color: #de5a33;
+  margin-top: 15px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#slide {
+  width: max-content;
+  width: 500px;
+  /* text-align: center;
+  font-size: 18px;
+  background: #de5a33; */
+
+  /* Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
